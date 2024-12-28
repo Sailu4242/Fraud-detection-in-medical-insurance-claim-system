@@ -85,7 +85,7 @@ from joblib import load # type: ignore
 
 # Load the trained models
 #sgd_model = load("sgd_model.joblib")
-sgd_model = load('xgboostv.0.joblib')
+sgd_model = load('xgboostv0.joblib')
 
 
 # Now you can use the loaded models for predictions
