@@ -84,7 +84,9 @@ for condition in chronic_conditions:
 from joblib import load # type: ignore
 
 # Load the trained models
-sgd_model = load('sgd_model.joblib')
+#sgd_model = load('sgd_model.joblib')
+sgd_model = load('logreg_model.joblib')
+
 
 # Now you can use the loaded models for predictions
 # Extract values based on the order of the variables
